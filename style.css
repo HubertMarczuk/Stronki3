@@ -1,0 +1,127 @@
+html, body {
+	margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #aaa;
+    font-family: Arial, sans-serif;
+}
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+nav a:hover {
+	background-color: #224d3a;
+}
+.main {
+    margin: 0px;
+    width: 100%;
+    height: 93%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu {
+    padding: 0px;
+    margin: 0px;
+    width: 25%;
+    height: 100%;
+    background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu_opponent {
+	width: 60%;
+	height: 15%;
+	background-color: #aaa;
+	margin: auto;
+	text-align: center;
+	line-height: 10px;
+	border-radius: 20px;
+	color: black;
+}
+.menu_game {
+	width: 60%;
+	height: 15%;
+	background-color: #aaa;
+	margin: auto;
+	text-align: center;
+	line-height: 10px;
+	border-radius: 20px;
+	color: black;
+}
+.button{
+	width: 120px;
+	height: 35px;
+	border-radius: 20px;
+	font-size: 15px;
+}
+.button:hover {
+	background-color: #224d3a;
+}
+.game{
+    margin: 0px;
+    padding: 0px;
+    width: 75%;
+    height: 100%;
+	display: flex;
+    flex-wrap: wrap;
+}
+.state_box {
+    margin: auto;
+    width: 60%;
+    height: 10%;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+#state_text {
+    margin: 0;
+    text-align: center;
+	color: black;
+}
+.game_area {
+	margin: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+	width: 60%;
+	height: 60%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.field {
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	background-color: #fff;
+	width: 32%;
+	height: 32%;
+    font-size: 160px;
+    color: black;
+    display: flex;
+    justify-content: center;
+	border-radius: 5px;
+}
+footer {
+	color: black;
+}

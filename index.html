@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Stronka Lab3</title>
+</head>
+<body>
+    <header>
+		<nav>
+			<ul>
+				<li><a href="#">Strona główna</a></li>
+				<li><a href="#">Oferta</a></li>
+				<li><a href="#">Cennik</a></li>
+				<li><a href="#">Zdjęcia</a></li>
+				<li><a href="#">Kontakt</a></li>
+			</ul>
+		</nav>
+	</header>	
+    <div class="main">
+        <div class="menu">
+            <div class="menu_opponent">
+				<p class="menu_text">Wybierz przeciwnika</p><br>
+				<button class="button button_opponent">Komputer</button>
+				<button class="button button_opponent">Druga osoba</button>
+			</div>
+			<div class="menu_game">
+				<p class="menu_text">Opcje gry</p><br>
+				<button id="button_back" class="button">Wróć</button>
+				<button id="button_start" class="button">Zagraj</button>
+			</div>
+        </div>
+        <div class="game">
+			<div class="state_box">
+				<p id="state_text"></p>
+			</div>
+            <div class="game_area">
+				<div id="field11" class="field">
+				</div>
+				<div id="field12" class="field">
+				</div>
+				<div id="field13" class="field">
+				</div>
+				<div id="field21" class="field">
+				</div>
+				<div id="field22" class="field">
+				</div>
+				<div id="field23" class="field">
+				</div>
+				<div id="field31" class="field">
+				</div>
+				<div id="field32" class="field">
+				</div>
+				<div id="field33" class="field">
+				</div>
+			</div>
+        </div>
+    </div>
+	<footer>
+		<p>Lab3 &copy;</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
